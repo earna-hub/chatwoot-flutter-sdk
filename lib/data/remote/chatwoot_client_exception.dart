@@ -1,6 +1,6 @@
 /// {@category FlutterClientSdk}
 class ChatwootClientException implements Exception {
-  String cause;
+  String? cause;
   dynamic data;
   ChatwootClientExceptionType type;
 
